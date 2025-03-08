@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubén Calero Córdoba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rubén Calero Córdoba</h1>
+            <p>Desarrollador de Software</p>
+            <nav>
+                <a href="#contact">Contacto</a>
+                <a href="indexCV.html" target="_blank">CV</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <p>Desarrollador especializado en backend y apps móviles, enfocado en optimización de procesos y soluciones escalables.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <a href="https://thethingfromthefuture.cc" target="_blank">
+                        <div class="preview-image" style="background-image: url('thethingfromthefuture.png');"></div>
+                        <h3>The Thing From The Future</h3>
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto 2.</p>
+                </div>
+                <div class="project">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción breve del proyecto 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Información de Contacto</h2>
+            <p>📩 <a href="mailto:rcalerocordoba@gmail.com">rcalerocordoba@gmail.com</a></p>
+            <p>🔗 <a href="https://www.linkedin.com/in/tuperfil" target="_blank">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <section >
+        <h2>Envíame un mensaje</h2>
+
+        <form class="contact-form" id="contact-form">
+            <label for="name">Nombre</label>
+            <input type="text" name="name"  required />
+            <label for="email">Correo Electrónico</label>
+            <input type="email" name="email"  required />
+            <label for="message">Mensaje</label>
+            <textarea name="message"  rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <script src="script.js"></script>
+
+        
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rubén Calero Córdoba. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
