@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +14,22 @@
             background-color: #1a1a1a;
             color: #fff;
         }
+
         .container {
             background: #222;
             padding: 40px;
-            box-shadow: 0 0 15px rgba(26, 152, 255, 0.8);
+            box-shadow: 0 0 10px #3e98ff;
             border-radius: 10px;
+            margin-bottom: 20px;
         }
+        .containerDescarga {
+            background: #222;
+            padding: 15px;
+            box-shadow: 0 0 10px #3e98ff;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
         .header {
             display: flex;
             align-items: center;
@@ -27,26 +38,30 @@
             text-align: center;
             margin-bottom: 20px;
         }
+
         .header img {
             border-radius: 50%;
             width: 150px;
             height: 150px;
             margin-bottom: 10px;
-            border: 4px solid #1780f8;
+            border: 4px solid #3e98ff;
         }
+
         .header h1 {
-            color: #1780f8;
+            color: #3e98ff;
             margin: 0;
             font-size: 2em;
         }
+
         .header h2 {
             font-size: 1.2em;
             margin: 5px 0 15px;
             font-weight: normal;
             color: #bbb;
         }
+
         .contact-info {
-            background: #1780f8;
+            background: #1d6ac3;
             color: white;
             padding: 15px;
             border-radius: 5px;
@@ -54,32 +69,80 @@
             font-size: 1.1em;
             font-weight: bold;
         }
+
         .contact-info a {
             color: white;
             text-decoration: none;
         }
+
         .contact-info a:hover {
             text-decoration: underline;
         }
+
         .section {
             margin-top: 30px;
             padding-bottom: 15px;
+            flex: 1;
+
         }
+
         h2 {
-            color: #1780f8;
-            border-bottom: 2px solid #1780f8;
+            color: #3e98ff;
+            border-bottom: 2px solid #3e98ff;
             padding-bottom: 5px;
         }
+
         ul {
             padding-left: 20px;
             list-style-type: square;
         }
+
         li {
             margin-bottom: 8px;
         }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 400;
+            transition: color 0.3s;
+            
+        }
+        header{
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            width: 100%;
+        }
+
+        .section01 {
+            margin-top: 30px;
+            padding-bottom: 15px;
+            flex: 1;
+            text-align: center;
+            margin-right: 10px;
+
+        }
+
+        .section02 {
+            margin-top: 30px;
+            padding-bottom: 15px;
+            flex: 1;
+            text-align: center;
+            margin-left: 20px;
+
+        }
+
+
     </style>
 </head>
+
 <body>
+
+    
     <div class="container">
         <div class="header">
             <img src="fotoCV.png" alt="Foto de perfil">
@@ -88,50 +151,71 @@
         </div>
         
         <div class="contact-info">
-            📞 633343762 | ✉️ <a href="mailto:rcalerocordoba@gmail.com">rcalerocordoba@gmail.com</a> | 🔗 <a href="https://www.linkedin.com/in/rcalerodev/">LinkedIn</a>
+            📞 633343762 | ✉️ <a href="mailto:rcalerocordoba@gmail.com">rcalerocordoba@gmail.com</a> | 🔗 <a
+            href="https://www.linkedin.com/in/rcalerodev/">LinkedIn</a>
         </div>
         
         <div class="section">
-            <h2>Experiencia Profesional</h2>
-            <ul>
-                <li><strong>Técnico de sistemas en Altare Servicios Profesionales</strong> (05/2024 - 10/2024)</li>
-                <li><strong>Técnico informático en LADV</strong> (03/2024 - 04/2024)</li>
-                <li><strong>Técnico de reparación de ordenadores por cuenta propia</strong> (05/2023 - 11/2023)</li>
-                <li><strong>Técnico de Selección IT en Adecco, Experis y UCI</strong> (2021-2023)</li>
-                <li><strong>Administrativo dep. pensiones en Valenzuela Gestión</strong> (06/2019 - 10/2020)</li>
+            <h2>Formación Académica</h2>
+            
+            <p><strong>Grado Superior en Desarrollo de Aplicaciones Multiplataforma</strong> - IES Pio Baroja (2024-2026)
+                <p><strong>IFCT0509 - Administración de servidores Linux</strong> (600h, 2024)</p>
+                <p><strong>Grado en RRLL & RRHH</strong> - UCM (2020)</p>
+                
+            </div>
+            <div class="section">
+                <h2>Experiencia Profesional</h2>
+                <ul>
+                    <p><strong>Técnico de sistemas en Altare Servicios Profesionales</strong> (05/2024 - 10/2024)</p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p><strong>Técnico informático en LADV</strong> (03/2024 - 04/2024)</p>
+                <p><strong>Técnico de reparación de ordenadores por cuenta propia</strong> (05/2023 - 11/2023)</p>
+                <p><strong>Técnico de Selección IT en Adecco, Experis y UCI</strong> (2021-2023)</p>
+                <p><strong>Administrativo dep. pensiones en Valenzuela Gestión</strong> (06/2019 - 10/2020)</p>
             </ul>
         </div>
         
-        <div class="section">
-            <h2>Formación</h2>
-            <ul>
-                <li><strong>IFCT0509 - Administración de servidores Linux</strong> (600h, 2024)</li>
-                <li><strong>Grado en RRLL & RRHH</strong> - UCM (2020)</li>
-                <li><strong>FP II en Desarrollo de Aplicaciones Multiplataforma</strong> - IES Pio Baroja (2024-2026)</li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Competencias Digitales</h2>
-            <ul>
-                <li>Lenguajes: Java, Python, HTML5, CSS</li>
-                <li>Bases de Datos: Oracle, MySQL</li>
-                <li>Administración de Linux: rsync, cron, quotas, ssh, ufw, ACL</li>
-                <li>Virtualización: Docker, VirtualBox</li>
-                <li>Protocolos: HTTP, FTP, SMTP, DNS</li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Adaptabilidad al cambio</li>
-                <li>Pensamiento lógico y crítico</li>
-                <li>Trabajo en equipos multidisciplinares</li>
-                <li>Orientación al aprendizaje continuo</li>
-                <li>Resolución de problemas</li>
-            </ul>
-        </div>
+        <div class="skills">
+            
+            <div class="section01">
+                <h2>Hard Skills</h2>
+                <ul>
+                    <p>Java | Python
+                        <p>HTML5 | CSS | XML
+                            <p>Oracle | MySQL
+                                <p>Docker | VirtualBox
+                                    <p>Administración de Linux: <br>rsync, cron, quotas, ssh, ufw, ACL, ssl
+                                        <p>Protocolos: <br>
+                                            HTTP | FTP | SMTP | DNS
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="section02">
+                                        <h2>Soft Skills</h2>
+                <ul>
+                    <p>Adaptabilidad al cambio
+                    <p>Pensamiento lógico y crítico
+                        <p>Trabajo en equipos multidisciplinares
+                    <p>Orientación al aprendizaje continuo
+                        <p>Resolución de problemas
+                        </ul>
+                        
+                    </div>
+                </div>
     </div>
+    <header>
+        <div class="containerDescarga">
+            <nav>
+                <a href="CV RUBEN CALERO 2025.pdf" download>⬇️ Pulsa aquí para descargar el CV en PDF ⬇️</a>
+
+            </nav>
+        </div>
+    </header>
 </body>
+
 </html>
