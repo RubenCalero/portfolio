@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rubén Calero Córdoba</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,6 +15,7 @@
             <p>Desarrollador de Software</p>
             <nav>
                 <a href="#contact">Contacto</a>
+                |
                 <a href="indexCV.html" target="_blank">CV</a>
             </nav>
         </div>
@@ -54,13 +55,16 @@
             <h2>Información de Contacto</h2>
             <p>📩 <a href="mailto:rcalerocordoba@gmail.com">rcalerocordoba@gmail.com</a></p>
             <p>🔗 <a href="https://www.linkedin.com/in/tuperfil" target="_blank">LinkedIn</a></p>
+            <p>🛠️ <a href="https://github.com/RubenCalero" target="_blank">GitHub</a></p>
         </div>
     </section>
 
     <section >
         <h2>Envíame un mensaje</h2>
 
-        <form class="contact-form" id="contact-form">
+        <form class="contact-form"  id="contact-form"
+            action="https://formspree.io/f/mwplewjr"
+            method="POST" target="_blank">
             <label for="name">Nombre</label>
             <input type="text" name="name"  required />
             <label for="email">Correo Electrónico</label>
@@ -69,9 +73,18 @@
             <textarea name="message"  rows="5" required></textarea>
             <button type="submit">Enviar</button>
         </form>
-        
-        <script src="script.js"></script>
 
+        <script>
+            // obtener el formulario
+            const form = document.getElementById('contact-form');
+            
+            // evento al formulario que se dispara cuando se envía
+            form.addEventListener('submit', function(event) {
+              // Limpia los campos después de enviar
+              form.reset();
+            });
+          </script>
+        
         
     </section>
 
