@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubén Calero Córdoba</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <meta name="description" content="Portfolio de Rubén Calero Córdoba, desarrollador especializado en backend y apps móviles.">
+    <meta name="keywords" content="desarrollo, backend, apps móviles, Python, Java, JavaScript, Node.js">
+    
+    <meta name="author" content="Rubén Calero Córdoba">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="styles.css">
+    <title>Rubén Calero Córdoba - Desarrollador Backend y Apps Móviles</title>
 </head>
+
 <body>
+
     <header>
         <div class="container">
             <h1>Rubén Calero Córdoba</h1>
-            <p>Desarrollador de Software</p>
             <nav>
                 <a href="#contact">Contacto</a>
                 |
@@ -21,10 +26,32 @@
         </div>
     </header>
 
+
     <section id="about">
         <div class="container">
-            <h2>Sobre Mí</h2>
-            <p>Desarrollador especializado en backend y apps móviles, enfocado en optimización de procesos y soluciones escalables.</p>
+            <div>
+                <h3 id="h3SobreMi">Sobre mi:</h3>
+                <p>
+            Desarrollador especializado en backend y aplicaciones móviles, con experiencia en tecnologías como 
+            <strong>Python</strong>, <strong>Java</strong> y <strong>JavaScript</strong>. Enfocado en crear soluciones escalables 
+            y optimizar procesos para mejorar la calidad del software.
+        </p>
+        <p>
+            Mi carrera profesional se resume en aprendizaje continuo. La experiencia en recursos humanos me ha aportado habilidades comunicativas y una visión estratégica de negocio. Además, mi paso por el área de sistemas me permite ver más allá del código en los proyectos.</p>
+        
+                <h3 id="h3Stack">Stack:</h3>
+                <div id="divIconos">
+                    <i class="fa-brands fa-python icon" title="Python"></i>
+                    <i class="fa-brands fa-java icon" title="Java"></i>
+                    <i class="fa-brands fa-js icon" title="Javascript"></i>
+                    <i class="fa-brands fa-html5 icon" title="html5"></i>
+                    <i class="fa-brands fa-css3-alt icon" title="css3"></i>
+                    <i class="fa-brands fa-git-alt icon" title="Git"></i>
+                </div>
+            </div>
+
+            <p><img src="fotoCV.webp" id="fotoCV" alt=""></p>
+        </div>
         </div>
     </section>
 
@@ -33,65 +60,256 @@
             <h2>Proyectos</h2>
             <div class="projects-grid">
                 <div class="project">
-                    <a href="https://thethingfromthefuture.cc" target="_blank">
-                        <div class="preview-image" style="background-image: url('thethingfromthefuture.png');"></div>
-                        <h3>The Thing From The Future</h3>
-                    </a>
+                    <div>
+                        <a href="https://thethingfromthefuture.cc" target="_blank">
+                            <div class="preview-image" style="background-image: url('thethingfromthefuture.png');">
+                            </div>
+                            <h3>The Thing From The Future</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <p>Proyecto creado desde cero junto a dos compañeros.</p>
+                        <p>Hicimos el diseño previo de la aplicación web, el desarrollo de la 
+                            web usando html y css y el juego en javascript.  </p>
+                            <p>También hicimos la API para almacenar los resultados del juego a una base de datos MYSQL, hecha en Node.js.</p>
+                        <div id="divIconosProyectos">
+                            <i class="fa-brands fa-js icon" title="Javascript"></i>
+                            <i class="fa-brands fa-html5 icon" title="html5"></i>
+                            <i class="fa-brands fa-css3-alt icon" title="css3"></i>
+                        </div>
+                    </div>
                 </div>
                 <div class="project">
-                    <h3>Proyecto 2</h3>
-                    <p>Descripción breve del proyecto 2.</p>
+                    <div>
+                        <p>More projects coming soon.</p>
+                    </div>
+                    <div>
+                            <div class="preview-image" style="background-image: url('comingsoon.jpg');">
+                            </div>
+                            
+                        
+                    </div>
                 </div>
-                <div class="project">
-                    <h3>Proyecto 3</h3>
-                    <p>Descripción breve del proyecto 3.</p>
+                <!-- <div class="project">
+                    <div>
+                        <h3>Proyecto 3</h3>
+                        <p>Descripción breve del proyecto 2.</p>
+                    </div>
+                    <div>
+                        <p>Descripcion</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectosJuntos">
+        <h2>¡Creemos proyectos juntos!</h2>
+        <p>
+            Si buscas un <span>desarrollador comprometido</span> y con un <span>enfoque en la calidad</span>, ¡no dudes en contactarme! Estoy <span>listo para aportar valor</span> a tu próximo proyecto.
+        </p>
+        <div id="divRRSS">
+            <a href="https://www.linkedin.com/in/rcalerodev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/RubenCalero" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experiencia Profesional</h2>
+            <div class="timeline">
+                <!-- Experiencia 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Técnico de Sistemas</h3>
+                        <p class="company">Altare Servicios Profesionales</p>
+                        <p class="date">05/2024 - 10/2024</p>
+                        <ul>
+                            <li>Soporte técnico a usuarios.</li>
+                            <li>Administración de CRM SAP.</li>
+                            <li>Administración de Active Directory y Tenant.</li>
+                            <li>Maquetación de equipos.</li>
+                            <li>Configuración de servidores Web.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Experiencia 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Técnico Informático</h3>
+                        <p class="company">LADV</p>
+                        <p class="date">03/2024 - 04/2024</p>
+                        <ul>
+                            <p>Proyecto de un mes de duración en el que realicé: </p>
+                            <li>Instalación y mantenimiento de equipos.</li>
+                            <li>Configuración de redes de la empresa.</li>
+                            <li>Domotización de las salas.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Experiencia 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-tools"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Técnico de Reparación de Ordenadores</h3>
+                        <p class="company">Por cuenta propia</p>
+                        <p class="date">05/2023 - 11/2023</p>
+                        <ul>
+                            <li>Reparación y mantenimiento de equipos informáticos por cuenta propia.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Experiencia 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Técnico de Selección IT</h3>
+                        <p class="company">Adecco, Experis y UCI</p>
+                        <p class="date">2021 - 2023</p>
+                        <ul>
+                            <li>Selección y reclutamiento de perfiles IT.</li>
+                            <li>Especializado en perfiles de desarrollo y SAP.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Experiencia 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-file-invoice"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Administrativo Departamento de Pensiones</h3>
+                        <p class="company">Valenzuela Gestión</p>
+                        <p class="date">06/2019 - 10/2020</p>
+                        <ul>
+                            <li>Gestión administrativa de trámites relacionados con pensiones.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacion">
+        <div class="container">
+            <h2>Formación Académica y Cursos</h2>
+            <div class="formacion-grid">
+                <!-- Formación Académica -->
+                <div class="formacion-card">
+                    <div class="formacion-header">
+                        <h3>Formación Académica</h3>
+                    </div>
+                    <div class="formacion-body">
+                        <div class="formacion-item">
+                            <h4>FPII en Desarrollo de Aplicaciones Multiplataforma</h4>
+                            <p>IES Pio Baroja (2024 - 2026)</p>
+                        </div>
+                        <div class="formacion-item">
+                            <h4>IFCT0509 - Administración de servidores Linux</h4>
+                            <p>600h (2024)</p>
+                        </div>
+                        <div class="formacion-item">
+                            <h4>Grado en RRLL&RRHH</h4>
+                            <p>UCM (2020)</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Formación Complementaria -->
+                <div class="formacion-card">
+                    <div class="formacion-header">
+                        <h3>Formación Complementaria</h3>
+                    </div>
+                    <div class="formacion-body">
+                        <div class="formacion-item">
+                            <h4>Programación Python</h4>
+                            <p>120h - IBM (2025)</p>
+                        </div>
+                        <div class="formacion-item">
+                            <h4>Administración de Sistemas Linux</h4>
+                            <p>200h - Academia Butarque (2024)</p>
+                        </div>
+                        <div class="formacion-item">
+                            <h4>Curso de HTML y CSS</h4>
+                            <p>180h - Google Skillshop (2023)</p>
+                        </div>
+                        <div class="formacion-item">
+                            <h4>Ciberseguridad y Seguridad Informática</h4>
+                            <p>50h - UCM (2020)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <div class="container">
-            <h2>Información de Contacto</h2>
-            <p>📩 <a href="mailto:rcalerocordoba@gmail.com">rcalerocordoba@gmail.com</a></p>
-            <p>🔗 <a href="https://www.linkedin.com/in/tuperfil" target="_blank">LinkedIn</a></p>
-            <p>🛠️ <a href="https://github.com/RubenCalero" target="_blank">GitHub</a></p>
-        </div>
-    </section>
-
-    <section >
+        
         <h2>Envíame un mensaje</h2>
 
-        <form class="contact-form"  id="contact-form"
-            action="https://formspree.io/f/mwplewjr"
-            method="POST" target="_blank">
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/mwplewjr" method="POST"
+            target="_blank">
             <label for="name">Nombre</label>
-            <input type="text" name="name"  required />
+            <input type="text" name="name" required />
             <label for="email">Correo Electrónico</label>
-            <input type="email" name="email"  required />
+            <input type="email" name="email" required />
             <label for="message">Mensaje</label>
-            <textarea name="message"  rows="5" required></textarea>
+            <textarea name="message" rows="5" required></textarea>
             <button type="submit">Enviar</button>
         </form>
 
         <script>
             // obtener el formulario
             const form = document.getElementById('contact-form');
-            
+
             // evento al formulario que se dispara cuando se envía
-            form.addEventListener('submit', function(event) {
-              // Limpia los campos después de enviar
-              form.reset();
+            form.addEventListener('submit', function (event) {
+                // Limpia los campos después de enviar
+                form.reset();
             });
-          </script>
-        
-        
+        </script>
+
+
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Rubén Calero Córdoba. Todos los derechos reservados.</p>
+    <div class="footer-content">
+        <!-- Redes sociales -->
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rcalerodev/" target="_blank"><i class="fa-brands fa-linkedin" title="rcalerodev"></i></a>
+            <a href="https://github.com/RubenCalero" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="mailto:rcalerocordoba@gmail.com" target="_blank"><i class="fa-solid fa-envelope" title="rcalerocordoba@gmail.com"></i></a>
         </div>
-    </footer>
+
+        <!-- Enlaces útiles -->
+        <div class="footer-links">
+            <a href="#about">Sobre mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#experience">Experiencia</a>
+            <a href="#contact">Contacto</a>
+        </div>
+
+        <!-- Derechos de autor -->
+        <div class="footer-copyright">
+            <p>Rubén Calero Córdoba</p>
+        </div>
+    </div>
+</footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+
 </html>
