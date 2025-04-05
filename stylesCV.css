@@ -4,12 +4,12 @@ body {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
-    background-color: #1a1a1a;
+    background-color: #000000;
     color: #fff;
 }
 
 .container {
-    background: #222;
+    background: #1a1a1a;
     padding-left: 90px;
     padding-right: 90px;
     padding-top: 50px;
