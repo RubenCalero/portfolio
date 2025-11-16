@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Rubén Calero Córdoba, desarrollador especializado en backend y apps móviles.">
     <meta name="keywords" content="desarrollo, backend, apps móviles, Python, Java, JavaScript, Node.js">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <meta name="author" content="Rubén Calero Córdoba">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="styles.css">
@@ -19,6 +20,10 @@
         <div class="container">
             <h1>Rubén Calero Córdoba</h1>
             <nav>
+                <a href="#projects">Proyectos</a>
+                |
+                <a href="#experience">Experiencia</a>
+                |
                 <a href="#contact">Contacto</a>
                 |
                 <a href="indexCV.html" target="_blank">CV</a>
@@ -59,6 +64,28 @@
         <div class="container">
             <h2>Proyectos</h2>
             <div class="projects-grid">
+                
+                <div class="project">
+                    <div>
+                        <a href="agenda.html" target="_blank">
+                            <div class="preview-image" style="background-image: url('agenda.png');">
+                            </div>
+                            <h3>Gestión de proveedores</h3>
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <p>Aplicación de escritorio completa para la gestión de proveedores utilizando Python.</p>
+                        <p>Permite realizar operaciones CRUD sobre una base de datos SQLite.</p>
+                        <p>El front está hecho con la librería Tkinter con experiencia de usuario fluida y control de navefaxión entre pantallas.</p>
+                        <div id="divIconosProyectos">
+                            <i class="fa-brands fa-python icon" title="Python"></i>
+                            <i class="fa-solid fa-database" title="SQLite"></i>
+                            <i class="fa-solid fa-window-restore" title="Tkinter"></i>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="project">
                     <div>
                         <a href="https://thethingfromthefuture.cc" target="_blank">
@@ -67,6 +94,7 @@
                             <h3>The Thing From The Future</h3>
                         </a>
                     </div>
+                    
                     <div>
                         <p>Proyecto creado desde cero junto a dos compañeros.</p>
                         <p>Hicimos el diseño previo de la aplicación web, el desarrollo de la 
@@ -279,8 +307,8 @@
             // evento al formulario que se dispara cuando se envía
             form.addEventListener('submit', function (event) {
                 // Limpia los campos después de enviar
-
             });
+    
         </script>
 
 

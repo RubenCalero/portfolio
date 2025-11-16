@@ -1,11 +1,12 @@
 body {
     font-family: 'Cutive Mono', monospace;
     color: #dadada;
-    background-color: #000000;
-    font-size: 1.3em;
+    background-color: black;
+    font-size: 1.1em;
 }
 
 header {
+
     color: #207dda;
     padding: 20px 0;
     border-radius: 10px;
@@ -25,7 +26,10 @@ header h1{
     gap: 20px;
     flex-direction: row;
     margin-top: 50px;
+    
 }
+
+
 
 #divIconos {
     display: flex;
@@ -42,6 +46,7 @@ header h1{
 
 #divIconos .icon:hover {
     transform: scale(1.2);
+    box-shadow: 0 4px 12px #00000033;
     color: #ffc67c;
 }
 
@@ -49,7 +54,7 @@ header h1{
     font-size: 60px;
     text-align: center;
 }
- 
+
 #divRRSS a  {
     display: inline-block;
     color: #dadada;
@@ -59,7 +64,9 @@ header h1{
 #divRRSS a:hover {
     transform: scale(1.2);
     color: #ffc67c;
+    box-shadow: 0 4px 12px #00000033;
 }
+
 
 #divIconosProyectos {
     justify-content: space-between;
@@ -76,14 +83,17 @@ header h1{
 
 #divIconosProyectos .icon:hover {
     transform: scale(1.2);
+    box-shadow: 0 4px 12px #00000033;
     color: #ffc67c;
 }
+
 
 #fotoCV {
     margin-top: 10px;
     margin-right: 30px;
-    height: 270px;
+    height: 300px;
     border-radius: 50%;
+    
     box-shadow: 
         0 0 10px #207dda,
         0 0 20px #207dda,
@@ -108,6 +118,10 @@ header h1{
 #about .container > div:last-child {
    flex: 1;
    text-align: center;
+}
+
+
+.container {
 }
 
 /* Header */
@@ -135,9 +149,11 @@ nav a:hover {
 }
 
 /* Secciones */
+
+
 h2 {
     font-size: 2em;
-    color: #207dda;
+    color: #dadada;
     margin-bottom: 15px;
     text-align: center;
     padding-bottom: 30px;
@@ -389,7 +405,7 @@ section {
     box-shadow: 0 4px 12px #00000033;
 }
 #proyectosJuntos span {
-    color: #ffc67c;
+    color: #207dda;
 }
 
 /* Estilos para la sección de formación */
@@ -509,7 +525,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #207dda;
+    color: #207dda; /* Naranja al pasar el mouse */
 }
 
 /* Derechos de autor */
@@ -519,16 +535,11 @@ footer {
     margin-top: 20px;
 }
 
+
 /* Media queries para mejorar la visualización en móvil */
 @media (max-width: 600px) {
     header h1 {
         font-size: 1.5em;
-    }
-
-    #fotoCV {
-
-        height: 200px;
-        
     }
 
     .projects-grid {
@@ -539,7 +550,6 @@ footer {
     .project {
         flex-direction: column;
         text-align: center;
-        width: auto;
     }
 
     .project > div:last-child {
@@ -547,7 +557,7 @@ footer {
     }
 
     .contact-form {
-        width: auto;
+        width: auto%;
         margin: 15px;
     }
 
@@ -579,7 +589,6 @@ footer {
     #about .container {
         flex-direction: column;
         text-align: center;
-        
     }
 
 /* responsive Experiencia laboral*/
